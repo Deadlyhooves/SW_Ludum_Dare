@@ -50,12 +50,14 @@ y = room_height/2 +38;
           <argument>
             <kind>1</kind>
             <string>image_angle = point_direction(x, y, mouse_x, mouse_y);
+xpos = x + lengthdir_x(20, image_angle);
+ypos = y + lengthdir_y(0, image_angle);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="50">
+    <event eventtype="6" enumb="56">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -72,7 +74,11 @@ y = room_height/2 +38;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(obj_turret.x,obj_turret.y,obj_lazer);
+            <string>
+
+instance_create(xpos,ypos,obj_lazer);
+
+
 </string>
           </argument>
         </arguments>

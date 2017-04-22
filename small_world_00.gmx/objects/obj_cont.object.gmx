@@ -68,7 +68,7 @@ if(x &lt;= 0-256)
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="7">
+    <event eventtype="4" ename="obj_lazer">
       <action>
         <libid>1</libid>
         <id>603</id>
