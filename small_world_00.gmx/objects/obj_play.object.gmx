@@ -49,7 +49,7 @@ y = 0+128;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.mov_speed = 1;
+            <string>global.mov_speed = 2;
 </string>
           </argument>
         </arguments>
