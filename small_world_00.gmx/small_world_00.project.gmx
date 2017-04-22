@@ -17,6 +17,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_pixel</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_stars</object>
     <object>objects\obj_spawn</object>
